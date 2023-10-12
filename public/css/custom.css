@@ -1,0 +1,216 @@
+.table-height {
+	min-height: 350px;
+}
+
+#form_risk_registers .form-control[readonly] {
+	background-color: #fff;
+    opacity: 1;
+}
+
+.threshold_line_left {
+    border-left-color: red !important;
+    border-left-style: dashed !important;
+    border-left-width: 2px !important;
+}
+
+.threshold_line_right {
+    border-right-color: red !important;
+    border-right-style: dashed !important;
+    border-right-width: 2px !important;
+}
+
+.threshold_line_top {
+    border-top-color: red !important;
+    border-top-style: dashed !important;
+    border-top-width: 2px !important;
+}
+
+.threshold_line_bottom {
+    border-bottom-color: red !important;
+    border-bottom-style: dashed !important;
+    border-bottom-width: 2px !important;
+}
+
+.tolerance_line_left {
+    border-left-color: black !important;
+    border-left-style: solid !important;
+    border-left-width: 2px !important;
+}
+
+.tolerance_line_right {
+    border-right-color: black !important;
+    border-right-style: solid !important;
+    border-right-width: 2px !important;
+}
+
+.tolerance_line_top {
+    border-top-color: black !important;
+    border-top-style: solid !important;
+    border-top-width: 2px !important;
+}
+
+.tolerance_line_bottom {
+    border-bottom-color: black !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 2px !important;
+}
+
+.form-control[readonly] {
+	border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.truncate-text {
+	max-width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.truncate-text_100 {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.truncate-text_500 {
+    max-width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.signup-text-input {
+    border: 2px solid rgb(251, 140, 1);
+    border-radius: 15px;
+}
+
+.text-colors-on {
+    color:  rgb(251, 140, 1);
+}
+
+.text-colors-off {
+    color:  #fff;
+}
+
+.text-colors-block {
+    color:  red;
+}
+
+.text-colors-none {
+    color:  green;
+}
+
+.images_hotels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-orange {
+    background-color: rgb(251, 140, 1);
+}
+
+.background-red {
+    background-color: red;
+}
+
+.background-green {
+    background-color: green;
+}
+
+.background-disabled {
+    background-color: grey;
+}
+
+.background-disabled2 {
+    background-color: rgb(186, 186, 186);
+}
+
+.main-color {
+    background-image: linear-gradient(red, rgb(251, 140, 1)) ;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.modal-ku {
+    width: 750px;
+    height: 250px;
+
+}
+
+.tambah-scroll {
+    overflow: scroll;
+    height: 750px;
+}
+
+/* .main-font {
+    font-family: Comic Sans Ms;
+
+} */
+
+.table-font {
+    font-family: Helvetica;
+}
+
+.blink {
+    animation: blink 1s linear infinite;
+    background-color: lightgreen;
+    border-radius: 5%;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.password-input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .password-input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .password-input-wrapper input {
+    flex: 1;
+    padding-right: 30px;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+@keyframes blink {
+50% {
+    opacity: 0;
+}
+}
+
+.icon-edit-faq {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
+  }
+
+.bold-input {
+    font-weight: bold;
+}
